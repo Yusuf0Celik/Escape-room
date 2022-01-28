@@ -403,5 +403,5 @@ input[type="radio"]{
   border-bottom-color:teal;
 }
 #cage:checked ~ * [class^=peice].img{
-  background-image:url("/img/pablo-escobar.png");
+  background-image:url(https://yusuf0celik.github.io/Escape-room/img/pablo-escobar.png);
 }
