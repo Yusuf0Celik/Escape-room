@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #141414;
+  overflow: hidden;
+}
+
+.background-image {
+  background-image: url(/img/einde.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.dialoog {
+  width: 40rem;
+  position: relative;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background-color: #00000060;
+  color: #fff;
+}
